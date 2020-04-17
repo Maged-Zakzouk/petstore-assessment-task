@@ -53,3 +53,6 @@ puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
 puma (3.12.4) lib/puma/server.rb:476:in `process_client'
 puma (3.12.4) lib/puma/server.rb:334:in `block in run'
 puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+No valid API key has been set, notifications will not be sent
+Not notifying due to an invalid api_key
+Not notifying due to an invalid api_key
