@@ -3,8 +3,8 @@ Feature: in this feature file, there are many scenarios that user sends a post r
         Given all tables data are cleared
         And users with the following data are Created
             | id | username | first_name | last_name | password | phone       | email          | user_status |
-            | 1  | user1    | user       | one       | 4828     | 01255845155 | user1@test.com | 1           |
-            | 2  | user2    | user       | two       | 4585     | 01486255753 | user2@test.com | 2           |
+            | 1  | user1    | user       | one       | 4828     | 01025956985 | user1@test.com | 1           |
+            | 2  | user2    | user       | two       | 4585     | 01245873256 | user2@test.com | 2           |
         And categories with the following data are Created
             | id | name  |
             | 1  | small |
@@ -19,8 +19,8 @@ Feature: in this feature file, there are many scenarios that user sends a post r
         Given all tables data are cleared
         And users with the following data are Created
             | id | username | first_name | last_name | password | phone       | email          | user_status |
-            | 1  | user1    | user       | one       | 4828     | 01255845155 | user1@test.com | 1           |
-            | 2  | user2    | user       | two       | 4585     | 01486255753 | user2@test.com | 2           |
+            | 1  | user1    | user       | one       | 4828     | 01025956985 | user1@test.com | 1           |
+            | 2  | user2    | user       | two       | 4585     | 01245873256 | user2@test.com | 2           |
         And categories with the following data are Created
             | id | name  |
             | 1  | small |
@@ -35,8 +35,8 @@ Feature: in this feature file, there are many scenarios that user sends a post r
         Given all tables data are cleared
         And users with the following data are Created
             | id | username | first_name | last_name | password | phone       | email          | user_status |
-            | 1  | user1    | user       | one       | 4828     | 01255845155 | user1@test.com | 1           |
-            | 2  | user2    | user       | two       | 4585     | 01486255753 | user2@test.com | 2           |
+            | 1  | user1    | user       | one       | 4828     | 01025956985 | user1@test.com | 1           |
+            | 2  | user2    | user       | two       | 4585     | 01245873256 | user2@test.com | 2           |
         And categories with the following data are Created
             | id | name  |
             | 1  | small |
@@ -51,8 +51,8 @@ Feature: in this feature file, there are many scenarios that user sends a post r
         Given all tables data are cleared
         And users with the following data are Created
             | id | username | first_name | last_name | password | phone       | email          | user_status |
-            | 1  | user1    | user       | one       | 4828     | 01255845155 | user1@test.com | 1           |
-            | 2  | user2    | user       | two       | 4585     | 01486255753 | user2@test.com | 2           |
+            | 1  | user1    | user       | one       | 4828     | 01025956985 | user1@test.com | 1           |
+            | 2  | user2    | user       | two       | 4585     | 01245873256 | user2@test.com | 2           |
         And categories with the following data are Created
             | id | name  |
             | 1  | small |
@@ -67,8 +67,8 @@ Feature: in this feature file, there are many scenarios that user sends a post r
         Given all tables data are cleared
         And users with the following data are Created
             | id | username | first_name | last_name | password | phone       | email          | user_status |
-            | 1  | user1    | user       | one       | 4828     | 01255845155 | user1@test.com | 1           |
-            | 2  | user2    | user       | two       | 4585     | 01486255753 | user2@test.com | 2           |
+            | 1  | user1    | user       | one       | 4828     | 01025956985 | user1@test.com | 1           |
+            | 2  | user2    | user       | two       | 4585     | 01245873256 | user2@test.com | 2           |
         And categories with the following data are Created
             | id | name  |
             | 1  | small |
@@ -83,8 +83,8 @@ Feature: in this feature file, there are many scenarios that user sends a post r
         Given all tables data are cleared
         And users with the following data are Created
             | id | username | first_name | last_name | password | phone       | email          | user_status |
-            | 1  | user1    | user       | one       | 4828     | 01255845155 | user1@test.com | 1           |
-            | 2  | user2    | user       | two       | 4585     | 01486255753 | user2@test.com | 2           |
+            | 1  | user1    | user       | one       | 4828     | 01025956985 | user1@test.com | 1           |
+            | 2  | user2    | user       | two       | 4585     | 01245873256 | user2@test.com | 2           |
         And categories with the following data are Created
             | id | name  |
             | 1  | small |
@@ -99,7 +99,7 @@ Feature: in this feature file, there are many scenarios that user sends a post r
         Given all tables data are cleared
         And users with the following data are Created
             | id | username | first_name | last_name | password | phone       | email          | user_status |
-            | 1  | user1    | user       | one       | 4828     | 01255845155 | user1@test.com | 1           |
+            | 1  | user1    | user       | one       | 4828     | 01025956985 | user1@test.com | 1           |
         And categories with the following data are Created
             | id | name  |
             | 1  | small |
@@ -114,8 +114,8 @@ Feature: in this feature file, there are many scenarios that user sends a post r
         Given all tables data are cleared
         And users with the following data are Created
             | id | username | first_name | last_name | password | phone       | email          | user_status |
-            | 1  | user1    | user       | one       | 4828     | 01255845155 | user1@test.com | 1           |
-            | 2  | user2    | user       | two       | 4585     | 01486255753 | user2@test.com | 2           |
+            | 1  | user1    | user       | one       | 4828     | 01025956985 | user1@test.com | 1           |
+            | 2  | user2    | user       | two       | 4585     | 01245873256 | user2@test.com | 2           |
         And categories with the following data are Created
             | id | name  |
             | 1  | small |

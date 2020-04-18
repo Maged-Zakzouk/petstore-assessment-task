@@ -25,13 +25,17 @@ User.create(
   first_name: 'user',
   last_name: 'two',
   email: 'user2@gmail.com',
-  phone: '0112575982154',
+  phone: '0112575982275',
   user_status: 2
 )
+
+puts 'Users are created successfully'
 
 # Create categories
 Category.create(name: 'small')
 Category.create(name: 'large')
+
+puts 'Categories are created successfully'
 
 # Create pets
 Pet.create(
@@ -51,3 +55,5 @@ Pet.create(
   category_id: 2,
   owner_id: 2
 )
+
+puts 'Pets are created successfully'

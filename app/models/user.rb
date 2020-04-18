@@ -7,7 +7,7 @@ class User < ApplicationRecord
 
   # == Validations ==========================================================
   validates :username, uniqueness: true
-  validates :phone, uniqueness: true
+  validates :phone, uniqueness: true, case_sensitive: false
   validates :email,
             uniqueness: true,
             format: { with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i }

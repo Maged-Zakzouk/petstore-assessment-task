@@ -6,7 +6,7 @@ RSpec.describe User, type: :model do
   context 'Model Validation' do
     describe 'duplicate data' do
       it { should validate_uniqueness_of(:username) }
-      it { should validate_uniqueness_of(:phone) }
+      it { should validate_uniqueness_of(:phone).case_insensitive }
       it { should validate_uniqueness_of(:email) }
     end
     
