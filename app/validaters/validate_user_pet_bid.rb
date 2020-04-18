@@ -17,6 +17,9 @@ class ValidateUserPetBid
     @errors << 'user_id should be provided' if @user_pet_bid['user_id'].blank?
     @errors << 'pet_id should be provided' if @user_pet_bid['pet_id'].blank?
     @errors << 'amount should be provided' if @user_pet_bid['amount'].blank?
+    unless @errors.blank?
+      return
+    end
     user = User.where(id: @user_pet_bid['user_id']).take
     @errors << 'user_id should be valid id' if user.nil?
     pet = Pet.where(id: @user_pet_bid['pet_id']).take

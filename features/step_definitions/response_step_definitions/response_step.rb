@@ -4,5 +4,5 @@ Then('json response is returned to the user with code {int}, type {string} and m
   body = JSON.parse(last_response.body)
   expect(body['code']).to eq code
   expect(body['type']).to eq type
-  expect(body['message']).to include message
+  expect(body['message']).to include message unless message.blank?
 end
