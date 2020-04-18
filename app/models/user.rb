@@ -3,6 +3,7 @@
 class User < ApplicationRecord
   # == Relationships ========================================================
   has_many  :pets
+  has_many  :user_pet_bids
 
   # == Validations ==========================================================
   validates :username, uniqueness: true
