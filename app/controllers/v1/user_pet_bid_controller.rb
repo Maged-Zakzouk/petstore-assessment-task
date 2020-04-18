@@ -12,10 +12,12 @@ class V1::UserPetBidController < ApplicationController
   end
 
   def show
-    user = User.where(id: params[:id]).take
-    if user.nil?
-      return render_json_response(0, 'user pets bids', 'invalid user_id')
+    result = ShowUserPetsBidsService.new(params[:id]).execute
+    errors = result.instance_variable_get(:@errors)
+    if errors.blank?
+      render_json_response(1, 'user pets bids', result.instance_variable_get(:@response))
+    else
+      render_json_response(0, 'user pets bids', errors)
     end
   end
-
 end
