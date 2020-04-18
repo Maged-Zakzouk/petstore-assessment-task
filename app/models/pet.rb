@@ -7,6 +7,7 @@ class Pet < ApplicationRecord
   # == Relationships ========================================================
   belongs_to :category, optional: true
   belongs_to :owner, class_name: 'User', optional: true
+  has_many  :user_pet_bids
 
   # == Validations ==========================================================
   validates :name, presence: true

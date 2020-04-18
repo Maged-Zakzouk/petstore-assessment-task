@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_18_073440) do
+ActiveRecord::Schema.define(version: 2020_04_18_100908) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,16 @@ ActiveRecord::Schema.define(version: 2020_04_18_073440) do
     t.index ["owner_id"], name: "index_pets_on_owner_id"
   end
 
+  create_table "user_pet_bids", id: :serial, force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "pet_id", null: false
+    t.decimal "amount", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["pet_id"], name: "index_user_pet_bids_on_pet_id"
+    t.index ["user_id"], name: "index_user_pet_bids_on_user_id"
+  end
+
   create_table "users", id: :serial, force: :cascade do |t|
     t.string "username"
     t.string "first_name"
@@ -48,4 +58,6 @@ ActiveRecord::Schema.define(version: 2020_04_18_073440) do
 
   add_foreign_key "pets", "categories"
   add_foreign_key "pets", "users", column: "owner_id"
+  add_foreign_key "user_pet_bids", "pets"
+  add_foreign_key "user_pet_bids", "users"
 end
